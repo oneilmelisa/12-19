@@ -1,5 +1,11 @@
+.sitebody {
+  position: relative;
+  top: 52px;
+}
 .navbar {
   background-color: $darkgray;
+  position: fixed;
+  width: 100%;
   ul {
     display: inline-flex;
   }
