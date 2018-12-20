@@ -1,0 +1,28 @@
+.navbar {
+  background-color: $darkgray;
+  ul {
+    display: inline-flex;
+  }
+  a {
+    color: white;
+    text-transform: uppercase;
+    font-size: small;
+  }
+   a:hover {
+     font-size: 1em;
+     }
+  }
+.trial-btn {
+  background-color: $green;
+  padding: 10px 14px;
+  margin: 10px;
+  border-radius: 2px;
+}
+
+
+@media screen and (max-width: 749px) {
+  .navbar-menu {
+    background-color: $darkgray;
+    padding: 0.5rem 0;
+  }
+}

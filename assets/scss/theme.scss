@@ -1,8 +1,7 @@
 @import "~bulma";
 @import "_variables";
-@import "MainComponents/_nav";
-@import "MainComponents/_footer";
-@import "MainComponents/_sections";
-@import "MainComponents/_logoimgs";
-@import "MainComponents/_fontstyles";
-
+@import "MainComponents/nav";
+@import "MainComponents/logoimgs";
+@import "MainComponents/fontstyles";
+@import "MainComponents/global";
+@import "MainComponents/footer";

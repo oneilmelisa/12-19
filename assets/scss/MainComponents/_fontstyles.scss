@@ -1,0 +1,34 @@
+h1 {
+  font-family: $headertext;
+  font-size: 3em;
+  font-weight: bold;
+  line-height: 1;
+}
+h2 {
+  font-family: $headertext;
+  font-size: .75em;
+  text-transform: uppercase;
+  color: $tan;
+  letter-spacing: .5em;
+
+}
+
+h3 {
+  font-family: $headertext;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.green {
+  color: $green;
+}
+
+.white {
+  color: #fff;
+}
+
+.lightgray {
+  color: $lightgray;
+}
+
+
