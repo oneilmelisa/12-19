@@ -59,3 +59,23 @@ p {
   background-color: $darkgray;
   color: white;
 }
+
+//how to
+
+.howto-title {
+  display: flex;
+  justify-content: center;
+  margin: 3em;
+}
+
+.howto {
+  .video {
+    margin:1em;
+  }
+  h4 {
+    text-align: center;
+    color: $darkgray;
+    font-weight: bold;
+  }
+  }
+
