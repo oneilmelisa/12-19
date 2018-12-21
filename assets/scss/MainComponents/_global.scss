@@ -1,3 +1,9 @@
+.vertical-center {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 //hero
 
 .hero-txt {
@@ -10,23 +16,4 @@
 
 .hero-container {
   position: relative;
-}
-
-//What is Clear
-
-.whatis {
-  text-align: center;
-  padding: 30px;
-}
-
-p {
-  color: $bodytextcolor;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-//cta
-
-.graybg {
-  background-color: $bggray;
 }
