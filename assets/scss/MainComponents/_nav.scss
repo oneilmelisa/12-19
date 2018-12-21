@@ -6,21 +6,18 @@
   background-color: $darkgray;
   position: fixed;
   width: 100%;
-  ul {
-    display: inline-flex;
-  }
-  a {
-    color: white;
-    text-transform: uppercase;
-    font-size: small;
-  }
+    ul {
+      display: inline-flex;
+    }
+    a {
+      color: white;
+      text-transform: uppercase;
+      font-size: small;
+      }
   }
 
-.navhover {
-  a:hover {
-    font-size: 1.2em;
-
-  }
+.mobile-menu {
+  display: none;
 }
 
   @media screen and (max-width: 749px) {
@@ -28,4 +25,13 @@
       background-color: $darkgray;
       padding: 0.5rem 0;
     }
-  }
+    .mobile-menu {
+      display: block;
+      background-color: $darkgray;
+    ul {
+      display: inline;
+    }
+
+      }
+    }
+
