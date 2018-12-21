@@ -1,0 +1,25 @@
+//footer
+
+footer {
+  background-color: $darkgray;
+  font-size: small;
+  a {
+    color: white;
+    text-transform: uppercase;
+  }
+    .logo-footer {
+      font-size: 4em;
+      color: white;
+      margin-top: -16px;
+    }
+  }
+
+
+@media only screen and (max-width: 750px) {
+  footer {
+    text-align: center;
+    li {
+      padding: 5px;
+    }
+  }
+}

@@ -1,8 +1,4 @@
-.vertical-center {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
+
 
 //hero
 
@@ -18,11 +14,21 @@
   position: relative;
 }
 
+//media items
 img {
   width: 100%;
 }
 
-.oneempadding {
-  padding: 1em;
-  }
 
+
+//layout
+
+.vertical-center {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.oneempadding {
+   padding: 1em;
+ }
