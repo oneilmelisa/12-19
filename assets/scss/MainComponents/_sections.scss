@@ -38,7 +38,24 @@ p {
   }
 }
 
-.vertical-center {
-    display: flex;
-    flex-wrap: wrap;
+//security
+
+.security {
+  .columns {
+    margin: 0px;
+  }
+  .column {
+    padding: 0px;
+    margin-bottom: -6px;
+  }
+}
+
+.security-para {
+  padding:3em;
+}
+
+.learnmore-btn {
+  padding:10px 15px;
+  background-color: $darkgray;
+  color: white;
 }
