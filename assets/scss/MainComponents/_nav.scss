@@ -16,22 +16,31 @@
       }
   }
 
-.mobile-menu {
+#navbarBasicExample {
   display: none;
 }
-
-  @media screen and (max-width: 749px) {
-    .navbar-menu {
+  @media screen and (max-width: 1080px) {
+    .container {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    nav {
       background-color: $darkgray;
       padding: 0.5rem 0;
+      .logo {
+        margin-bottom: 0px;
+        margin-top: 0px;
+      }
     }
-    .mobile-menu {
+    .navbar-menu {
       display: block;
       background-color: $darkgray;
+      text-align: center;
     ul {
       display: inline;
     }
 
       }
+
     }
 
