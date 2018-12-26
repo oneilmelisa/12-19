@@ -49,3 +49,11 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+
+$("#showModal").click(function() {
+    $(".modal").addClass("is-active");
+});
+
+window.onclick = function(event) {
+    $(".modal").removeClass("is-active");
+}
