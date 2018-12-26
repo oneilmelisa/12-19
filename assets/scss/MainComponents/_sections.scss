@@ -111,12 +111,20 @@ p {
 /* Modal Content/Box */
 .modal-content {
   background-color: $darkgray;
-  margin: 15% auto; /* 15% from the top and centered */
+  //margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
   width: 40%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  text-align: center;
+
+
+  z-index: 60;
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   .modal-email {
     padding: 10px;
     width: 30vw;
