@@ -1,7 +1,7 @@
-
-.modal-background {
-  background-color: $modal-background-background-color;
+.modal {
+  text-align: center;
 }
+
 
 .modal-card {
   position: fixed;
@@ -11,24 +11,52 @@
   box-shadow: 2px 4px 112px 15px rgba(38,32,38,1);
 }
 
-
-.modal-card-head,
 .modal-card-foot {
   background-color: $darkgray;
 }
 
 .modal-card-head {
+ background-color: #2d2d2d;
+  color: white;
+  border-bottom: unset;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  text-align: center;
+}
+
+
+.modal-card-foot {
+  text-align: center;
+}
+
+.modal-card-body {
+  background-color: #202021;
+  padding-bottom: 35px;
+  input {
+    display: flex;
+    margin: 10px auto;
+    margin-bottom: 30px;
+    width: 80%;
+    height: 35px;
+    border: solid black 1px;
+    border-radius: 50px;
+    text-align: center;
+  }
+}
+
+.submitbtn {
+  padding: 8px 25px;
+  background-color: whitesmoke;
+  color: #2d2d2d;
+  margin: 20px;
+  border-radius: 2px;
+  font-weight: lighter;
 
 }
 
 .modal-card-title {
-
-}
-
-.modal-card-foot {
-
-}
-
-.modal-card-body {
-  background-color: $modal-card-body-background-color;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  font-size: larger;
 }
