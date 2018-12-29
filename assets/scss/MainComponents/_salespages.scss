@@ -1,5 +1,5 @@
 .cta-onecol , .cta-twocol {
-  margin: 100px auto;
+  margin: 1em auto;
   h3 {
     margin: 20px auto;
     justify-content: center;
@@ -8,13 +8,23 @@
     margin-bottom: 40px;
   }
   img {
-    max-height: 65vw;
-    width: auto;
+    margin: 2em auto;
   }
 }
 
+@media screen and (max-width: 749px) {
+  img {
 
+  }
+}
 
+.smallimg {
+  width: 40vh;
+}
+
+.mediumimg {
+  width: 90vh;
+}
 .price-container {
   background-image: url("https://clearpro.io/images/houston-bg1.png");
   height: 80vh;
