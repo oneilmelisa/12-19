@@ -38,7 +38,7 @@
 
 .price-chart {
   position: relative;
-  top: 50%;
+  top: 40%;
   left: 50%;
   width: fit-content;
   transform: translate(-50%, -50%);
@@ -52,21 +52,32 @@
   }
   tbody {
     text-align: left;
+    font-size: small;
+    color: white;
   }
   td {
+    padding: 20px .5em;
+  }
+  th {
     padding: .5em;
   }
   thead {
     background-color: #f2f2f2;
   }
-  //tr:nth-child(even) {
-  //  background-color: #f2f2f2
-  //}
+
+  tr:nth-child(even) {
+    background-color: #737373;
+  }
 
   .chartbottom {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
   }
+}
+
+.table-description {
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .pricegreybg {
