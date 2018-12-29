@@ -25,6 +25,9 @@
 .mediumimg {
   width: 90vh;
 }
+
+//price chart
+
 .price-container {
   background-image: url("https://clearpro.io/images/houston-bg1.png");
   height: 80vh;
@@ -33,3 +36,39 @@
 
 }
 
+.price-chart {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: fit-content;
+  transform: translate(-50%, -50%);
+  background-color: #636363;
+  border: 8px solid #4a4a4a;
+  border-radius: 20px;
+  h3 {
+    text-align: center;
+    color: whitesmoke;
+    padding: 10px 0;
+  }
+  tbody {
+    text-align: left;
+  }
+  td {
+    padding: .5em;
+  }
+  thead {
+    background-color: #f2f2f2;
+  }
+  //tr:nth-child(even) {
+  //  background-color: #f2f2f2
+  //}
+
+  .chartbottom {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+}
+
+.pricegreybg {
+  background-color: $pricebglight;
+}
