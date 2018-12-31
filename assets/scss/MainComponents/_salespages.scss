@@ -8,22 +8,20 @@
     margin-bottom: 40px;
   }
   img {
-    margin-bottom: 2em;
-  }
-}
-
-@media screen and (max-width: 749px) {
-  img {
 
   }
 }
 
-.smallimg {
-  width: 40vh;
+.portimg {
+  height: 80vh;
+  width: unset;
 }
 
-.mediumimg {
-  width: 90vh;
+.landimg {
+  width: 80%;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 //price chart
