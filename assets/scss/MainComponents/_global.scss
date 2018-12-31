@@ -33,3 +33,10 @@ img {
 .oneempadding {
    padding: 1em;
  }
+
+.horizontal-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
