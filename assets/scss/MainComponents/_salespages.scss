@@ -32,6 +32,9 @@
 .smlandimg {
   width: 90%;
 }
+  .portimg {
+    margin-left: 50px;
+  }
 }
 //price chart
 
@@ -85,7 +88,6 @@
 @media screen and (max-width: 749px) {
   .price-chart {
     width: fit-content;
-    margin: auto;
     overflow: hidden;
     line-height: 1.5;
     background-color: #636363;

@@ -2,6 +2,8 @@
   position: relative;
   top: 52px;
 }
+
+
 .navbar {
   background-color: $darkgray;
   position: fixed;
@@ -14,7 +16,25 @@
       text-transform: uppercase;
       font-size: small;
       }
+  a:hover {
+    color: #9fb5a3;
+    font-weight: lighter;
   }
+  a.trial-btn:hover {
+    color: black;
+    font-weight: normal;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    transition-property: transform;
+    transition: all 0.5s ease-out;
+  }
+}
+
+.logo {
+  font-size: 3em;
+  color: white;
+  font-weight: normal;
+}
 
   @media screen and (max-width: 1080px) {
     .container {
@@ -25,8 +45,7 @@
       background-color: $darkgray;
       padding: 0.5rem 0;
       .logo {
-        margin-bottom: 0px;
-        margin-top: 0px;
+
       }
     }
     .navbar-menu {
